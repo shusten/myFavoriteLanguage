@@ -24,8 +24,10 @@ YOUR_PROJECT_NAME
 
 ## Features
 [//]: # (Add the features of your project here:)
-This app features all the latest tools and practices in mobile development!
-<img src="https://img.shields.io/badge/License-MIT-blue.svg" align="center">
+
+<br>
+
+<img src="https://angular.io/assets/images/logos/angular/logo-nav@2x.png" align="center">
 **Angular** — A TypeScript based open-source web application framework.
 
 ## Getting started
