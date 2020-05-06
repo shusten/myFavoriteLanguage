@@ -26,7 +26,7 @@ Para a interface utilizamos a biblioteca Bootstrap, que forneceu o sistema de Gr
 
 ## Features
 [//]: # (Add the features of your project here:)
-
+This app features Angular a front-end web framework
 <br>
 
 <img src="https://angular.io/assets/images/logos/angular/logo-nav@2x.png" align="center">
