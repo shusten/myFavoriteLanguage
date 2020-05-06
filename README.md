@@ -1,27 +1,41 @@
-# MinhaLinguagem
+ <h1 align="center">
+<br>
+  <img src="YOUR_LOGO_URL" alt="YOUR_PROJECT_NAME" width="120">
+<br>
+<br>
+YOUR_PROJECT_NAME
+</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
+<p align="center">A little description about your project</p>
 
-## Development server
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License MIT">
+  </a>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+[//]: # (Add your gifs/images here:)
+<div>
+  <img src="IMAGE_1_URL" alt="demo" height="425">
+  <img src="IMAGE_2_URL" alt="demo" height="425">
+</div>
 
-## Code scaffolding
+<hr />
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
+[//]: # (Add the features of your project here:)
+This app features all the latest tools and practices in mobile development!
 
-## Build
+- ⚛️ **React Js** — A JavaScript library for building user interfaces
+- ⚛️ **React Native** — A lib that provides a way to create native apps for Android and iOS
+- 💹 **Node Js** — A web framework for Node Js
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Getting started
 
-## Running unit tests
+Describe here the way to use/install your project
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## License
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
