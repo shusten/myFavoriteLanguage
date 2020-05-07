@@ -8,6 +8,7 @@ import { Usuario } from '../../../interfaces/usuario';
 })
 export class CadastroComponent {
   public usuario: Usuario = <Usuario>{};
+  public termoUsuario = false;
 
   constructor() { }
 
