@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-cabecalho',
   templateUrl: './cabecalho.component.html',
   styleUrls: ['./cabecalho.component.css']
 })
-export class CabecalhoComponent implements OnInit {
-
+export class CabecalhoComponent {
+  @Input() titulo: string;
   constructor() { }
 
-  ngOnInit(): void {
+  deslogar() {
+    
   }
 
 }
