@@ -16,6 +16,9 @@ const routes: Routes = [
   {
     path: 'cadastro',
     component: CadastroComponent
+  },
+  {
+    path: '**', redirectTo: ''
   }
 
 ];
