@@ -15,12 +15,12 @@ export class TokenApiService implements HttpInterceptor {
   intercept(
     req: HttpRequest<any>,
     next: HttpHandler
-  ): Observable<HttpEvent<any>> {
+    ): Observable<HttpEvent<any>> {
       if (this.tokenService.token) {
-        return next.handle(this.addToken(req, this.tokenService.));
+        return next.handle(this.addToken(req, this.tokenService.token));
       }
       return next.handle(req);
-  }
+    }
 
   addToken(req: HttpRequest<any>, token: string): HttpRequest<any> {
     return req.clone({ setHeaders: { Authorization: `Bearer ${token}` } } );
