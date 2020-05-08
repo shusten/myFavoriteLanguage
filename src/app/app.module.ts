@@ -8,6 +8,7 @@ import { BemVindoComponent } from './paginas/publico/bem-vindo/bem-vindo.compone
 import { LoginComponent } from './paginas/publico/login/login.component';
 import { CadastroComponent } from './paginas/publico/cadastro/cadastro.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
