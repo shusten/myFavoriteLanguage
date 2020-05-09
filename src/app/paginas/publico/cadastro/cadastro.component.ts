@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
+
+import { ToastrService } from 'ngx-toastr';
+
 import { Usuario } from '../../../interfaces/usuario';
 import { UsuarioService } from 'src/app/services/usuario.service';
 import { AuthService } from 'src/app/services/auth.service';
-import { ToastrService } from 'ngx-toastr';
+
 
 @Component({
   selector: 'app-cadastro',
@@ -20,7 +23,19 @@ export class CadastroComponent {
   ) { }
 
   onSubmit() {
-    
+    this.usuarioService.cadastrar(this.usuario).subscribe(
+      () => {
+        this.authService.logar(this.usuario).subscribe( () => {
+          this.toastr.success('Cadastro realizado com sucesso', 'Show!');
+        });
+      },
+      (erro) => {
+        if (erro.status && erro.status === 409) {
+          this.toastr.error('Usuário já cadastrado. Experimente utilizar outro e-mail.', 'Falha!');
+        } else {
+          this.toastr.error('Não foi possível realizar cadastro.', 'Falha!');
+        }
+      }
+    );
   }
-
 }
