@@ -11,6 +11,7 @@ import { LoginComponent } from './paginas/publico/login/login.component';
 import { CadastroComponent } from './paginas/publico/cadastro/cadastro.component';
 import { DashboardComponent } from './paginas/restrito/dashboard/dashboard.component';
 import { TokenApiService } from './interceptadores/token-api.service';
+import { InvalidTokenApiService } from './interceptadores/invalid-token-api.service';
 
 
 @NgModule({
@@ -32,6 +33,11 @@ import { TokenApiService } from './interceptadores/token-api.service';
     {
       provide: HTTP_INTERCEPTORS,
       useClass: TokenApiService,
+      multi: true
+    },
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: InvalidTokenApiService,
       multi: true
     }
   ],
