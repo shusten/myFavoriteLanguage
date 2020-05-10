@@ -10,7 +10,7 @@ export const environment = {
     preventDuplicates: true,
     enableHtml: true,
     progressBar: true,
-    timeOut:300
+    timeOut:3500
   }
 };
 
