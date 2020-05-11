@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+import { ChartsModule } from 'ng2-charts';
 import { ToastrModule } from 'ngx-toastr'
 
 import { AppRoutingModule } from './app-routing.module';
@@ -17,6 +18,7 @@ import { TokenApiService } from './interceptadores/token-api.service';
 import { InvalidTokenApiService } from './interceptadores/invalid-token-api.service';
 import { environment } from '../environments/environment';
 import { CardListaLinguagensComponent } from './compartilhado/card-lista-linguagens/card-lista-linguagens.component';
+import { CardGraficoLinguagensComponent } from './compartilhado/card-grafico-linguagens/card-grafico-linguagens.component';
 
 
 @NgModule({
@@ -27,11 +29,13 @@ import { CardListaLinguagensComponent } from './compartilhado/card-lista-linguag
     LoginComponent,
     CadastroComponent,
     DashboardComponent,
-    CardListaLinguagensComponent
+    CardListaLinguagensComponent,
+    CardGraficoLinguagensComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ChartsModule,
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
