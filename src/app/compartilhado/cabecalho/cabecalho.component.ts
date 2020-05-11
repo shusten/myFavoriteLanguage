@@ -1,5 +1,9 @@
 import { Component, Input } from '@angular/core';
 
+import { ToastrService } from 'ngx-toastr';
+
+import { AuthService } from 'src/app/services/auth.service';
+
 @Component({
   selector: 'app-cabecalho',
   templateUrl: './cabecalho.component.html',
@@ -7,10 +11,11 @@ import { Component, Input } from '@angular/core';
 })
 export class CabecalhoComponent {
   @Input() titulo: string;
-  constructor() { }
+  constructor(private authService: AuthService, private toastr: ToastrService) { }
 
   deslogar() {
-    
+    this.authService.deslogar().subscribe(() => {
+      this.toastr.success('Já vai? Sentiremos sua fata :(', 'Show!');
+    });
   }
-
 }
