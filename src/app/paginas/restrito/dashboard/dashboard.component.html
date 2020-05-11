@@ -1,1 +1,10 @@
-<p>dashboard works!</p>
+<div class="row">
+    <div class="col-md-12">
+        <h2>Bem vindo, {{ (usuarioService.usuario$ | async)?.nome }}</h2>
+    </div>
+    <div class="col-12 col-md-6 mb-4"></div>
+    <div class="col-12 col-md-6">
+        <app-card-lista-linguagens [linguagens]="linguagemService.linguagens$ | async" (curtida)="curtirLinguagem($event)">
+        </app-card-lista-linguagens>
+    </div>
+</div>
