@@ -16,6 +16,7 @@ import { DashboardComponent } from './paginas/restrito/dashboard/dashboard.compo
 import { TokenApiService } from './interceptadores/token-api.service';
 import { InvalidTokenApiService } from './interceptadores/invalid-token-api.service';
 import { environment } from '../environments/environment';
+import { CardListaLinguagensComponent } from './compartilhado/card-lista-linguagens/card-lista-linguagens.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { environment } from '../environments/environment';
     BemVindoComponent,
     LoginComponent,
     CadastroComponent,
-    DashboardComponent
+    DashboardComponent,
+    CardListaLinguagensComponent
   ],
   imports: [
     BrowserModule,
