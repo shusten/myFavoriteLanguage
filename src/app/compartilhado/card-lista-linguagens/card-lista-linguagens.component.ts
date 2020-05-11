@@ -7,7 +7,7 @@ import { Linguagem } from '../../interfaces/linguagem';
   templateUrl: './card-lista-linguagens.component.html',
   styleUrls: ['./card-lista-linguagens.component.css']
 })
-export class CardListaLinguagensComponent  {
+export class CardListaLinguagensComponent {
   @Input() linguagens: Linguagem[];
   @Output() curtida: EventEmitter<Linguagem> = new EventEmitter<Linguagem>();
 
