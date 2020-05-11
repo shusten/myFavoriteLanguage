@@ -2,10 +2,9 @@ import { Component } from '@angular/core';
 
 import { ToastrService } from 'ngx-toastr';
 
-import { Usuario } from '../../../interfaces/usuario';
+import { Usuario } from 'src/app/interfaces/usuario';
 import { UsuarioService } from 'src/app/services/usuario.service';
 import { AuthService } from 'src/app/services/auth.service';
-
 
 @Component({
   selector: 'app-cadastro',
@@ -25,8 +24,8 @@ export class CadastroComponent {
   onSubmit() {
     this.usuarioService.cadastrar(this.usuario).subscribe(
       () => {
-        this.authService.logar(this.usuario).subscribe( () => {
-          this.toastr.success('Cadastro realizado com sucesso', 'Show!');
+        this.authService.logar(this.usuario).subscribe(() => {
+          this.toastr.success('Cadastro realizado com sucesso.', 'Show!');
         });
       },
       (erro) => {
