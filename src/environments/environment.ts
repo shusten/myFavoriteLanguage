@@ -4,13 +4,13 @@
 
 export const environment = {
   production: false,
-  linguagensApiUrl: 'https://deviup.com.br:3003/api',
+  linguagensApiUrl: 'http://localhost:3000/api',
   toastConfig: {
     positionClass: 'toast-top-right',
     preventDuplicates: true,
     enableHtml: true,
     progressBar: true,
-    timeOut:300
+    timeOut:3500
   }
 };
 
