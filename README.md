@@ -29,11 +29,14 @@ Para a interface utilizamos a biblioteca Bootstrap, que forneceu o sistema de Gr
 This application uses Angular a front-end web framework
 <br>
 
-<img src="https://angular.io/assets/images/logos/angular/logo-nav@2x.png" align="center">
-**Angular** — A TypeScript based open-source web application framework.
-<br>
+<img src="https://angular.io/assets/images/logos/angular/logo-nav@2x.png" align="center" width="90" height="30">
 
-<img src="https://www.chartjs.org/img/chartjs-logo.svg" align="center" width="120" height="90">
+**Angular** — A TypeScript based open-source web application framework.
+
+<br>
+<img src="https://www.chartjs.org/img/chartjs-logo.svg" align="center" width="60" height="40">
+
+**Charts JS** - JavaScript charting for designers & developers.
 
 <br>
 
