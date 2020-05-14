@@ -26,14 +26,17 @@ Para a interface utilizamos a biblioteca Bootstrap, que forneceu o sistema de Gr
 
 ## :rocket: Technologies
 [//]: # (Add the features of your project here:)
-*  <img src="https://angular.io/assets/images/logos/angular/logo-nav@2x.png" align="center" width="90" height="25"> - This application uses Angular
+*  <img src="https://angular.io/assets/images/logos/angular/logo-nav@2x.png" align="center" width="90" height="25">  -  This application uses Angular
 
 **Angular** — A TypeScript based open-source web application framework.
 
-* <img src="https://www.chartjs.org/img/chartjs-logo.svg" align="center" width="35" height="40"> - This application uses Charts JS 
+* <img src="https://www.chartjs.org/img/chartjs-logo.svg" align="center" width="35" height="40">  -  This application uses Charts JS 
 
+**Charts JS**  —  JavaScript charting for designers & developers.
 
-**Charts JS** - JavaScript charting for designers & developers.
+*  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/200px-Bootstrap_logo.svg.png" align="center" width="28" height="28">  - This application uses Bootstrap 
+
+**Bootstrap** — Bootstrap is a CSS framework
 </div>
 
 ## Getting started
@@ -41,7 +44,6 @@ Para a interface utilizamos a biblioteca Bootstrap, que forneceu o sistema de Gr
 Describe here the way to use/install your project
 <br>
 <img src="getting_started.gif" align="center">
-
 
 ## License
 
