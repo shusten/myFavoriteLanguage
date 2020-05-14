@@ -3,7 +3,7 @@
   <img src="YOUR_LOGO_URL" alt="YOUR_PROJECT_NAME" width="120">
 <br>
 <br>
-Minha Linguagem Favorita
+My Favorite Language
 </h1>
 
 <p align="center">Nesse projeto veremos a implementação de sistema de login e cadastro completo em uma aplicação SPA, ou Single-page application, utilizando o framework Angular e o padrão JWT, ou JSON Web Token. Essa aplicação se trata de um Dashboard onde podemos visualizar uma lista de linguagens de programação e curtir aquelas que mais gostamos. Podemos, também, visualizar o número de curtidas em cada uma dessas linguagens, bem como um gráfico de pizza com a distribuição do total de curtidas dentre essas linguagens.
@@ -22,7 +22,7 @@ Para a interface utilizamos a biblioteca Bootstrap, que forneceu o sistema de Gr
   <img src="IMAGE_2_URL" alt="demo" height="425">
 </div>
 
-<hr />
+<div>
 
 ## :rocket: Technologies
 [//]: # (Add the features of your project here:)
@@ -31,6 +31,13 @@ This application uses Angular a front-end web framework
 
 <img src="https://angular.io/assets/images/logos/angular/logo-nav@2x.png" align="center">
 **Angular** — A TypeScript based open-source web application framework.
+<br>
+
+<img src="https://www.chartjs.org/img/chartjs-logo.svg" align="center" width="120" height="90">
+
+<br>
+
+</div>
 
 ## Getting started
 
