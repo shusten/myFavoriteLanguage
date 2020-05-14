@@ -41,7 +41,7 @@ Para a interface utilizamos a biblioteca Bootstrap, que forneceu o sistema de Gr
 
 ## Getting started
 
-Describe here the way to use/install your project
+
 <br>
 <img src="getting_started.gif" align="center">
 
