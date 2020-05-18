@@ -19,6 +19,7 @@ import { InvalidTokenApiService } from './interceptadores/invalid-token-api.serv
 import { environment } from '../environments/environment';
 import { CardListaLinguagensComponent } from './compartilhado/card-lista-linguagens/card-lista-linguagens.component';
 import { CardGraficoLinguagensComponent } from './compartilhado/card-grafico-linguagens/card-grafico-linguagens.component';
+import { CardBarLinguagensComponent } from './compartilhado/card-bar-linguagens/card-bar-linguagens.component';
 
 
 @NgModule({
@@ -30,7 +31,8 @@ import { CardGraficoLinguagensComponent } from './compartilhado/card-grafico-lin
     CadastroComponent,
     DashboardComponent,
     CardListaLinguagensComponent,
-    CardGraficoLinguagensComponent
+    CardGraficoLinguagensComponent,
+    CardBarLinguagensComponent
   ],
   imports: [
     BrowserModule,
