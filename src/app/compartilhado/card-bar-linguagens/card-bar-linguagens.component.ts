@@ -13,7 +13,7 @@ export class CardBarLinguagensComponent implements OnInit {
   public curtidasLinguagens: number[];
   public chartType = 'bar';
   
-  barChartLabels: Label[] = ['Apple', 'Banana', 'Kiwifruit', 'Blueberry', 'Orange', 'Grapes','',''];
+  barChartLabels: Label[] = ['C#', 'Delphi', 'Java', 'JavaScript', 'PHP', 'Python','Ruby','TypeScript'];
  
 
   barChartOptions: ChartOptions = {
@@ -38,7 +38,7 @@ export class CardBarLinguagensComponent implements OnInit {
                 'rgba(153, 102, 255, 1)',
                 'rgba(255, 159, 64, 1)'
             ],
-            borderWidth: 1 
+            borderWidth: 2 
             }
 ]
 
@@ -46,13 +46,14 @@ export class CardBarLinguagensComponent implements OnInit {
 
 
   @Input() set linguagens(linguagens: Linguagem[]) {
-   
+    if (linguagens) {
       this.nomesLinguagens = linguagens.map(linguagem => {
         return linguagem.nome;
       });
       this.curtidasLinguagens = linguagens.map(linguagem => {
         return linguagem.numeroUsuarios;
       });
+    }
     
   }
 
