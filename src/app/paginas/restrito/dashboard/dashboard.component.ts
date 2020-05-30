@@ -10,6 +10,7 @@ import { Linguagem } from 'src/app/interfaces/linguagem';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
+  backdash:string = "src/assets/background_dashboard.jpg"
 
   constructor(public linguagemService: LinguagemService, private toastr: ToastrService, public usuarioService: UsuarioService) { }
 

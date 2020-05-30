@@ -1,12 +1,16 @@
-body {
-    margin: 0px;
-    padding: 0px;
-}
 
-.container {
-    background-image: url('wp1828942.png');
-    width: 100%;
-  }
+.cont{
+    background-image:  url(src/assets/background_dashboard.jpg);
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+    background-position: auto;
+}
 .bloco {
     float: left;
     width: 96%;
@@ -14,7 +18,7 @@ body {
     margin-left: 2%;
     margin-bottom: 30px;
     border-radius: 10px;
-    background: rgba(112, 17, 236, 0.1);
+    background: rgba(236, 97, 17, 0.3);
 }
 .blocoLista {
     float: left;
@@ -28,6 +32,19 @@ body {
 
 @media only screen and (min-width: 796px) {
     
+    .cont{
+        background-image:  url(src/assets/background_dashboard.jpg);
+        background-position: center;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-size: cover;
+        align-items: center;
+        background-position: auto;
+    }
+
     .bloco {
         float: left;
         width: 60%;
@@ -36,7 +53,7 @@ body {
         margin-right: 3%;
         margin-bottom: 20px;
         border-radius: 6px;
-        background: rgba(112, 17, 236, 0.1);
+        background: rgba(43, 5, 65, 0.8);
     }
     
     .blocoLista {
@@ -47,7 +64,7 @@ body {
         margin-right: 3%;
         margin-bottom: 20px;
         border-radius: 6px;
-        background: rgba(112, 17, 236, 0.1);
+        background: rgba(43, 5, 65, 0.8);
     }
 
 }

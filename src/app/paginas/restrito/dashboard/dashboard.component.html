@@ -1,18 +1,11 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Favorite Language</title>
-</head>
 
-<body>
-  <div class="container"  >
-    <div class="blocoLista" >
+  
+  <div class="cont">
+    <div class="blocoLista">
         <app-card-lista-linguagens [linguagens]="linguagemService.linguagens$ | async" (curtida)="curtirLinguagem($event)"></app-card-lista-linguagens>
       </div>
       
-      <div class="bloco">
+      <div class="bloco" >
         <app-card-grafico-linguagens [linguagens]="linguagemService.linguagens$ | async"></app-card-grafico-linguagens>
     </div>
     
@@ -20,6 +13,4 @@
       <app-card-bar-linguagens [linguagens]="linguagemService.linguagens$ | async"></app-card-bar-linguagens>
     </div>
   </div>
-</body>
 
-</html>
