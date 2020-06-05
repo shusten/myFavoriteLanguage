@@ -1,7 +1,5 @@
  <h1 align="center">
-<br>
-<br>
-<br>
+  <br>
 My Favorite Language
 </h1>
 
