@@ -16,12 +16,7 @@ Para a interface utilizamos a biblioteca Bootstrap, que forneceu o sistema de Gr
 </p>
 
 [//]: # (Add your gifs/images here:)
-<div>
-  <img src="IMAGE_1_URL" alt="demo" height="425">
-  <img src="IMAGE_2_URL" alt="demo" height="425">
-</div>
 
-<div>
 
 ## :rocket: Technologies
 [//]: # (Add the features of your project here:)
